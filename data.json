@@ -1,27 +1,17 @@
 [
     {
-        "institucion": "SuperTasas",
-        "producto": "Inversión a la vista",
-        "plazo_dias": 1,
-        "plazo_texto": "A la vista",
-        "tasa_anual": 12.50,
-        "monto_minimo": 1.00,
-        "logo": "logos/supertasas.svg",
-        "url_oferta": "https://www.supertasas.com/"
-    },
-    {
-        "institucion": "Finsus",
-        "producto": "Pagaré a Plazo",
-        "plazo_dias": 365,
-        "plazo_texto": "365 días",
-        "tasa_anual": 15.01,
+        "institucion": "Klar",
+        "producto": "Inversión Fija (Plus)",
+        "plazo_dias": 180,
+        "plazo_texto": "180 días",
+        "tasa_anual": 11.50,
         "monto_minimo": 100.00,
-        "logo": "logos/finsus.jpg",
-        "url_oferta": "https://www.finsus.mx/"
+        "logo": "logos/klar.png",
+        "url_oferta": "https://www.klar.mx/"
     },
     {
-        "institucion": "Nu",
-        "producto": "Cuenta Nu",
+        "institucion": "Nu México",
+        "producto": "Cajita Turbo",
         "plazo_dias": 1,
         "plazo_texto": "A la vista",
         "tasa_anual": 15.00,
@@ -30,13 +20,133 @@
         "url_oferta": "https://nu.com.mx/"
     },
     {
-        "institucion": "Klar",
-        "producto": "Inversión Fija",
-        "plazo_dias": 365,
-        "plazo_texto": "1 año",
-        "tasa_anual": 17.00,
+        "institucion": "DiDi",
+        "producto": "DiDi Cuenta",
+        "plazo_dias": 1,
+        "plazo_texto": "A la vista",
+        "tasa_anual": 15.00,
+        "monto_minimo": 1.00,
+        "logo": "logos/didi.ico",
+        "url_oferta": "https://didi.com/mx/didi-finanzas/"
+    },
+    {
+        "institucion": "Ualá",
+        "producto": "Cuenta con Rendimiento (con condiciones)",
+        "plazo_dias": 1,
+        "plazo_texto": "A la vista",
+        "tasa_anual": 16.00,
         "monto_minimo": 100.00,
-        "logo": "logos/klar.png",
-        "url_oferta": "https://www.klar.mx/"
+        "logo": "logos/uala.ico",
+        "url_oferta": "https://www.uala.mx/"
+    },
+    {
+        "institucion": "Mercado Pago",
+        "producto": "Cuenta de Inversión (con condiciones)",
+        "plazo_dias": 1,
+        "plazo_texto": "A la vista",
+        "tasa_anual": 14.00,
+        "monto_minimo": 1.00,
+        "logo": "logos/mercadopago.ico",
+        "url_oferta": "https://www.mercadopago.com.mx/"
+    },
+    {
+        "institucion": "Finsus",
+        "producto": "Inversión a Plazo",
+        "plazo_dias": 360,
+        "plazo_texto": "360 días",
+        "tasa_anual": 11.59,
+        "monto_minimo": 100.00,
+        "logo": "logos/finsus.jpg",
+        "url_oferta": "https://finsus.mx/"
+    },
+    {
+        "institucion": "Finsus",
+        "producto": "finsus+ (a la vista)",
+        "plazo_dias": 1,
+        "plazo_texto": "A la vista",
+        "tasa_anual": 9.09,
+        "monto_minimo": 100.00,
+        "logo": "logos/finsus.jpg",
+        "url_oferta": "https://finsus.mx/"
+    },
+    {
+        "institucion": "Covalto",
+        "producto": "Certificado de Depósito",
+        "plazo_dias": 728,
+        "plazo_texto": "728 días",
+        "tasa_anual": 11.00,
+        "monto_minimo": 5000.00,
+        "logo": "logos/covalto.png",
+        "url_oferta": "https://www.covalto.com/"
+    },
+    {
+        "institucion": "CetesDirecto",
+        "producto": "Bondía",
+        "plazo_dias": 1,
+        "plazo_texto": "A la vista (Bondía)",
+        "tasa_anual": 9.25,
+        "monto_minimo": 100.00,
+        "logo": "logos/cetesdirecto.ico",
+        "url_oferta": "https://www.cetesdirecto.com/"
+    },
+    {
+        "institucion": "SuperTasas",
+        "producto": "Inversión a la vista",
+        "plazo_dias": 1,
+        "plazo_texto": "A la vista",
+        "tasa_anual": 8.41,
+        "monto_minimo": 1.00,
+        "logo": "logos/supertasas.svg",
+        "url_oferta": "https://www.supertasas.com/"
+    },
+    {
+        "institucion": "SuperTasas",
+        "producto": "Pagaré a Plazo",
+        "plazo_dias": 364,
+        "plazo_texto": "364 días",
+        "tasa_anual": 10.00,
+        "monto_minimo": 1.00,
+        "logo": "logos/supertasas.svg",
+        "url_oferta": "https://www.supertasas.com/"
+    },
+    {
+        "institucion": "Stori",
+        "producto": "Apartados",
+        "plazo_dias": 1,
+        "plazo_texto": "A la vista",
+        "tasa_anual": 9.25,
+        "monto_minimo": 1.00,
+        "logo": "logos/stori.ico",
+        "url_oferta": "https://www.storicard.com/"
+    },
+    {
+        "institucion": "Openbank",
+        "producto": "Cuenta de Débito",
+        "plazo_dias": 1,
+        "plazo_texto": "A la vista",
+        "tasa_anual": 10.00,
+        "monto_minimo": 1.00,
+        "logo": "logos/openbank.ico",
+        "url_oferta": "https://www.openbank.mx/"
+    },
+    {
+        "institucion": "Banamex",
+        "producto": "Pagaré",
+        "plazo_dias": 28,
+        "plazo_texto": "28 días",
+        "tasa_anual": 8.80,
+        "monto_minimo": 500.00,
+        "logo": "logos/banamex.ico",
+        "url_oferta": "https://www.banamex.com/"
+    },
+    {
+        "institucion": "Banorte",
+        "producto": "Pagaré Altos Rendimientos",
+        "plazo_dias": 28,
+        "plazo_texto": "28 días",
+        "tasa_anual": 8.10,
+        "monto_minimo": 1000000.00,
+        "logo": "logos/banorte.ico",
+        "url_oferta": "https://www.banorte.com/"
     }
 ]

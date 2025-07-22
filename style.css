@@ -114,3 +114,20 @@ footer {
         display: none;
     }
 }
+
+.controles-tabla {
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.controles-tabla label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.controles-tabla select {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
