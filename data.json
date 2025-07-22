@@ -1,0 +1,32 @@
+[
+    {
+        "institucion": "SuperTasas",
+        "producto": "Inversión a la vista",
+        "plazo_dias": 1,
+        "plazo_texto": "A la vista",
+        "tasa_anual": 12.50,
+        "monto_minimo": 1.00,
+        "logo": "logos/supertasas.svg",
+        "url_oferta": "https://www.supertasas.com/"
+    },
+    {
+        "institucion": "Finsus",
+        "producto": "Pagaré a Plazo",
+        "plazo_dias": 365,
+        "plazo_texto": "365 días",
+        "tasa_anual": 15.01,
+        "monto_minimo": 100.00,
+        "logo": "logos/finsus.jpg",
+        "url_oferta": "https://www.finsus.mx/"
+    },
+    {
+        "institucion": "Nu",
+        "producto": "Cuenta Nu",
+        "plazo_dias": 1,
+        "plazo_texto": "A la vista",
+        "tasa_anual": 15.00,
+        "monto_minimo": 1.00,
+        "logo": "logos/nu.png",
+        "url_oferta": "https://nu.com.mx/"
+    }
+]

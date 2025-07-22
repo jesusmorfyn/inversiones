@@ -56,3 +56,16 @@ footer {
     font-size: 0.8em;
     color: #666;
 }
+.btn-visitar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    display: inline-block;
+    text-align: center;
+}
+.btn-visitar:hover {
+    background-color: #0056b3;
+}
