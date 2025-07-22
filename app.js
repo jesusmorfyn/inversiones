@@ -13,19 +13,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Creamos una nueva fila (tr)
                 const fila = document.createElement('tr');
 
-                // Creamos las celdas (td) y las llenamos con los datos
+                // ESTA ES LA PARTE QUE CAMBIA
                 fila.innerHTML = `
-                    <td>
+                    <td data-label="Institución">
                         <img src="${inversion.logo}" alt="Logo ${inversion.institucion}" width="20" style="margin-right: 8px; vertical-align: middle;">
                         ${inversion.institucion}
                     </td>
-                    <td>${inversion.producto}</td>
-                    <td>${inversion.plazo_texto}</td>
-                    <td><strong>${inversion.tasa_anual.toFixed(2)}%</strong></td>
-                    <td>$${inversion.monto_minimo.toLocaleString('es-MX')}</td>
-                    <td><a href="${inversion.url_oferta}" target="_blank" class="btn-visitar">Visitar Sitio</a></td>
+                    <td data-label="Producto">${inversion.producto}</td>
+                    <td data-label="Plazo">${inversion.plazo_texto}</td>
+                    <td data-label="Tasa Anual"><strong>${inversion.tasa_anual.toFixed(2)}%</strong></td>
+                    <td data-label="Monto Mínimo">$${inversion.monto_minimo.toLocaleString('es-MX')}</td>
+                    <td data-label="Acción"><a href="${inversion.url_oferta}" target="_blank" class="btn-visitar">Visitar Sitio</a></td>
                 `;
-                
+
                 // Añadimos la fila completa a la tabla
                 tablaBody.appendChild(fila);
             });
