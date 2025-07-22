@@ -16,10 +16,6 @@ header {
     color: #fff;
     text-align: center;
 }
-header .subdominio {
-    font-style: italic;
-    opacity: 0.8;
-}
 h1 {
     margin: 0;
 }
@@ -50,12 +46,6 @@ th {
 tr:nth-child(even) {
     background-color: #f8f9fa;
 }
-footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.8em;
-    color: #666;
-}
 .btn-visitar {
     background-color: #007bff;
     color: #fff;
@@ -69,49 +59,44 @@ footer {
 .btn-visitar:hover {
     background-color: #0056b3;
 }
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #666;
+}
 
+/* --- ESTILOS PARA MÓVILES Y PANTALLAS PEQUEÑAS --- */
 @media (max-width: 768px) {
-    
-    /* NUEVO: Hacemos que la tabla contenedora sea invisible */
     table {
-        border: none; /* Quitamos cualquier borde exterior */
-        box-shadow: none; /* Quitamos la sombra exterior */
-        background-color: transparent; /* Hacemos su fondo transparente */
+        border: none;
+        box-shadow: none;
+        background-color: transparent;
     }
-
-    /* 1. Ocultamos los encabezados originales de la tabla */
     table thead {
         display: none;
     }
-
-    /* 2. Hacemos que cada fila se comporte como una "tarjeta" */
     table tr {
         display: block;
         margin-bottom: 20px;
         border: 1px solid #ddd;
         border-radius: 5px;
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        background-color: #fff; /* AJUSTADO: Nos aseguramos que cada tarjeta tenga fondo blanco */
+        background-color: #fff;
     }
-    
-    /* 3. Hacemos que cada celda sea un bloque */
     table td {
         display: block;
-        text-align: right; 
+        text-align: right;
         padding-left: 50%;
         position: relative;
         border-bottom: 1px solid #eee;
-        border-top: none;  /* AJUSTADO: Evitamos bordes dobles internos */
-        border-left: none; /* AJUSTADO: Evitamos bordes dobles internos */
-        border-right: none;/* AJUSTADO: Evitamos bordes dobles internos */
+        border-top: none;
+        border-left: none;
+        border-right: none;
     }
-
-    /* 4. Quitamos el borde inferior de la última celda de cada tarjeta */
     table td:last-child {
         border-bottom: 0;
     }
-
-    /* 5. ¡LA MAGIA! Usamos el atributo data-label para crear la etiqueta */
     table td::before {
         content: attr(data-label);
         position: absolute;
@@ -121,8 +106,6 @@ footer {
         text-align: left;
         font-weight: bold;
     }
-
-    /* Ajustamos la celda del botón para que se vea bien */
     table td[data-label="Acción"] {
         text-align: center;
         padding: 15px;

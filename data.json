@@ -28,5 +28,15 @@
         "monto_minimo": 1.00,
         "logo": "logos/nu.png",
         "url_oferta": "https://nu.com.mx/"
+    },
+    {
+        "institucion": "Klar",
+        "producto": "Inversión Fija",
+        "plazo_dias": 365,
+        "plazo_texto": "1 año",
+        "tasa_anual": 17.00,
+        "monto_minimo": 100.00,
+        "logo": "logos/klar.png",
+        "url_oferta": "https://www.klar.mx/"
     }
 ]
